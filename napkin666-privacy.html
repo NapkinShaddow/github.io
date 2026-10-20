@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Napkin666 Local Google Docs Connector</title>
+<meta name="description" content="Privacy policy for the personal Napkin666 local Google Docs API connector.">
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.65;max-width:780px;margin:0 auto;padding:28px 22px;color:#20272f;background:#fff}
+h1{line-height:1.2}h2{margin-top:2rem}a{color:#135eb7}header,footer{border-bottom:1px solid #e0e4eb;padding-bottom:16px}footer{border-top:1px solid #e0e4eb;border-bottom:none;margin-top:35px;padding-top:20px;color:#515c67}
+.note{background:#f6f8fb;padding:16px;border-left:4px solid #4475ad}
+</style>
+</head>
+<body>
+<header><a href="./napkin666.html">Napkin666 — Home</a></header>
+<main>
+<h1>Privacy Policy — Napkin666</h1>
+<p><strong>Last updated:</strong> October 20, 2026</p>
+<p>Napkin666 Local Google Docs Connector is a personal, non-commercial utility operated by the Google account owner to perform expressly authorized Google Docs operations through a controller on the owner's computer. This policy describes the experimental connector currently being tested, not any future unapproved production integration.</p>
+<div class="note"><strong>Separate application:</strong> Napkin666 is not the same as <em>Napkin Shadow ReadOnly</em>. The older utility reads and synchronizes selected Drive files; Napkin666 is designed to read <em>and write</em> Google Docs within the permissions granted by the account owner.</div>
+
+<h2>Google account data accessed</h2>
+<p>With the owner's explicit Google OAuth authorization, the connector uses the Google Drive <code>drive.file</code> scope and Google Docs API. This scope permits access to files created by the application or explicitly made available to it. The application may create test documents, read their contents and metadata, append authorized text, and verify changes by reading them back. It does not request blanket access to every Drive file.</p>
+<p>At present, tests are confined to specifically designated private test documents. Access to existing Napkin production documents is not enabled by this experimental connector and would require separate authorization and safeguards.</p>
+
+<h2>Why the data is used</h2>
+<p>Google data is used solely to carry out and verify actions requested or authorized by the account owner, including confirming the exact document, avoiding duplicate writes and detecting conflicting edits. Google account data is not used for advertising, profiling, or sale.</p>
+
+<h2>Storage, retention, and security</h2>
+<p>The current test runs on the owner's Windows computer. Access tokens are held in process memory for the active operation; an OAuth refresh token for renewed access is stored on that computer encrypted for its Windows user by the Windows Data Protection API (DPAPI). No OAuth token or Google document content is intentionally published to this GitHub Pages site. Private test documents remain in the owner's Google Drive until the owner deletes them.</p>
+<p>The local controller may retain minimal operational status and diagnostic information needed to check whether authorized test actions completed. Do not place credentials or private document contents into public GitHub issues. GitHub, as website host, may process ordinary visits to this public information site under its own privacy terms.</p>
+
+<h2>Sharing and use restrictions</h2>
+<p>The connector does not sell or share Google user data with advertisers or data brokers. The current standalone test does not intentionally transmit Google document contents to third-party AI models or an unrelated external service. Any future integration that would disclose account data beyond the owner's authorized Google API operation will require a separate review and an accurate policy update before activation.</p>
+<p>Use and transfer of Google API data are subject to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements where applicable.</p>
+
+<h2>Owner control</h2>
+<p>The owner can revoke the application's Google access in <a href="https://myaccount.google.com/connections">Google Account connections</a>, delete documents created by the test, and delete the locally stored encrypted refresh-token file. Revocation can prevent future API access; it does not itself delete preexisting test documents.</p>
+
+<h2>Contact and policy updates</h2>
+<p>Questions about this personal utility may be raised at the project's <a href="https://github.com/NapkinShaddow/github.io/issues">GitHub repository issue page</a>. Please do not include personal data, document contents, credentials, or tokens in public issues. This policy will be updated if the connector's authorized processing materially changes.</p>
+</main>
+<footer><a href="./napkin666.html">Napkin666 Home</a> · <a href="https://github.com/NapkinShaddow/github.io">Project information</a></footer>
+</body>
+</html>
