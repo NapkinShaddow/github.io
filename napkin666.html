@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Napkin666 — Local Google Docs Connector</title>
+<meta name="description" content="Personal local Google Docs connector for authorized read/write operations.">
+<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.65;max-width:780px;margin:0 auto;padding:28px 22px;color:#20272f}h1{line-height:1.2}a{color:#135eb7}section{margin:24px 0}footer{border-top:1px solid #dde1e8;padding-top:16px;margin-top:35px;color:#515c67}</style></head>
+<body><main>
+<h1>Napkin666 — Local Google Docs Connector</h1>
+<p>Napkin666 is a personal, non-commercial local utility for the owner of a Google account. Its purpose is to execute explicitly authorized Google Docs API operations through the owner's computer, rather than relying on a conversational application's document connector.</p>
+<section><h2>What the application does</h2>
+<p>With Google OAuth authorization, the application can create test documents, read their contents, append text to authorized documents, verify exact readback, and detect duplicate or conflicting writes. It uses the <code>drive.file</code> scope for files created by or explicitly made available to the application.</p>
+<p>The current version is an isolated private test. It is not a publicly available service, and it does not currently write to Napkin production documents. Expanding its document access or deploying it in production requires separate approval and controls.</p></section>
+<section><h2>Owner control and privacy</h2>
+<p>Google access requires explicit consent. The owner can revoke access in Google Account settings. The local experimental connector encrypts its refresh token with Windows Data Protection API under the current Windows user account. The application does not publish private documents on this website.</p>
+<p>See the <a href="./napkin666-privacy.html">Napkin666 Privacy Policy</a> for details about Google data use, storage, and revocation.</p></section>
+<section><h2>Contact</h2><p>For project inquiries, see the <a href="https://github.com/NapkinShaddow/github.io">GitHub repository</a>. Please do not post credentials or personal document content in public issues.</p></section>
+</main><footer><a href="./napkin666-privacy.html">Privacy Policy</a> · <a href="./">Napkin Shadow ReadOnly — separate application</a></footer></body></html>
